@@ -124,15 +124,19 @@ function Hero() {
         >
           <div className="relative aspect-[4/4.5] overflow-hidden border border-white/10 bg-[#121212] sm:aspect-[5/4] lg:aspect-[4/5]">
 
-            {/* Replace with your own image */}
+            {/* ONLINE PREMIUM CREATIVE STUDIO IMAGE */}
             <img
-              src="/images/hero-image.jpg"
-              alt="Creative digital experience"
+              src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85"
+              alt="Premium creative studio interior"
+              loading="eager"
+              fetchPriority="high"
               className="h-full w-full object-cover opacity-80 transition-transform duration-1000 hover:scale-105"
             />
 
+            {/* IMAGE OVERLAY */}
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/10" />
 
+            {/* IMAGE CONTENT */}
             <div className="absolute bottom-6 left-6 right-6 sm:bottom-9 sm:left-9 sm:right-9">
               <p className="text-[10px] tracking-[0.25em] text-[#c5a46d]">
                 BEYOND EXPECTATIONS
