@@ -1,5 +1,5 @@
 import { FiArrowUpRight } from "react-icons/fi";
-import { industries } from "../data/content";
+import { industries } from "../data/Content";
 import Reveal from "./Reveal";
 import SectionLabel from "./SectionLabel";
 
