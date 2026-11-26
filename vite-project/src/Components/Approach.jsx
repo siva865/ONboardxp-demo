@@ -1,5 +1,5 @@
 import { FiArrowUpRight } from "react-icons/fi";
-import { IMG } from "../data/content";
+import { IMG } from "../data/Content";
 import Reveal from "./Reveal";
 import SectionLabel from "./SectionLabel";
 
