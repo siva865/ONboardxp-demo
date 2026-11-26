@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { FiArrowUpRight } from "react-icons/fi";
-import { IMG } from "../data/content";
+import { IMG } from "../data/Content";
 
 export default function Hero() {
   return (
